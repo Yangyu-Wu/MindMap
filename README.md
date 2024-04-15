@@ -12,9 +12,9 @@ Our approach can significantly enhance the performance of CoT and SI, particular
 ## :bell: Overview
 The main framework of the proposed MindMap approach.
 
-![fig1](./img/paperpic1.pdf)
+![fig1](./img/paperpic1.png)
 
-![fig2](./img/paperpic2.pdf)
+![fig2](./img/paperpic2.png)
 
 The figure above the head illustrates the MindMap's workflow for answering a question from the bAbI dataset, comprising three modules: evidence chain construction, summarization, and utilization for reasoning. 
 **Evidence chain construction**:To construct these chains, we deploy the Evidence Chain Construction module. This involves creating subjects using entity extraction and dependency parsing from the Stanford CoreNLP toolkit. We then form an evidence chain for each subject by collating facts that include the specific subject.
