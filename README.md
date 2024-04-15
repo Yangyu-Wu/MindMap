@@ -17,9 +17,29 @@ The main framework of the proposed MindMap approach.
 ![fig2](./img/paperpic2.png)
 
 The figure above the head illustrates the MindMap's workflow for answering a question from the bAbI dataset, comprising three modules: evidence chain construction, summarization, and utilization for reasoning. 
+
 **Evidence chain construction**:To construct these chains, we deploy the Evidence Chain Construction module. This involves creating subjects using entity extraction and dependency parsing from the Stanford CoreNLP toolkit. We then form an evidence chain for each subject by collating facts that include the specific subject.
+
 **Evidence chain summarization**: evidence chains vary in length. To achieve brevity, we introduce an evidence chain summarization module. It guides a Large Language Model to generate summaries focusing on key entities in each chain.
+
 **Evidence chain utilization for reasoning**: During inference, we substitute individual facts with these summarized evidence chains for reasoning. This modification doesn't alter the underlying reasoning framework, demonstrating MindMap's compatibility with various reasoning approaches.
+## :rocket: Getting Started
+### Build
+```
+git clone https://github.com/Yangyu-Wu/MindMap
+cd MindMap
+pip install -r requirements.txt
+```
+### Inference
+Please set the model storage location and related parameters in `main.py`
+```
+python main.py
+```
+### Evaluation
+```
+python evaluate.py
+```
+
 ## :thumbsup: Paper and Citation
 More technical details can be found in our [paper](https://ojs.aaai.org/index.php/AAAI/article/view/29896/31566).
 
