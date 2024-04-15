@@ -23,6 +23,12 @@ The figure above the head illustrates the MindMap's workflow for answering a que
 **Evidence chain summarization**: evidence chains vary in length. To achieve brevity, we introduce an evidence chain summarization module. It guides a Large Language Model to generate summaries focusing on key entities in each chain.
 
 **Evidence chain utilization for reasoning**: During inference, we substitute individual facts with these summarized evidence chains for reasoning. This modification doesn't alter the underlying reasoning framework, demonstrating MindMap's compatibility with various reasoning approaches.
+
+## :fire: Model Weights
+In this paper, experiments using the vicuna-7b model are used. 
+
+model weight：[vicuna-7b](https://github.com/lm-sys/FastChat?tab=readme-ov-file#vicuna-weights)
+
 ## :rocket: Getting Started
 ### Build
 ```
