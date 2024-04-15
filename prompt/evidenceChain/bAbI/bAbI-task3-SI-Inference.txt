@@ -1,0 +1,10 @@
+The chain containing apple in chain is chain-0, so we choose chain-0.According to chain-0: Daniel passed through the kitchen(t=0),garden(t=2),office(t=4),hallway(t=8) in sequence with apple.Therefore,apple was in office(t=4) before the hallway(t=8).&
+
+The chain containing football in chain is chain-3, so we choose chain-3.According to chain-3: John passed through the office(t=6),bedroom(t=8),hallway(t=11),garden(t=13),kitchen(t=14) in sequence with football.Therefore,football was in garden(t=13) before the kitchen(t=14).&
+
+The chain containing football in chain is chain-3, so we choose chain-3.According to chain-3: John passed through the office(t=6),bedroom(t=8),hallway(t=11),garden(t=13),kitchen(t=14) in sequence with football.Therefore,football was in hallway(t=11) before the kitchen(t=14).&
+
+The chain containing milk in chain is chain-2, so we choose chain-2.According to chain-2: Sandra passed through the office(t=6),bedroom(t=8) in sequence with milkTherefore,milk was in office(t=6) before the bedroom(t=8).&
+
+The chain containing apple in chain is chain-2, so we choose chain-2.According to chain-2: John passed through the hallway(t=4),office(t=7),garden(t=8) in sequence with apple.Therefore,milk was in office(t=7) before the garden(t=8).&
+

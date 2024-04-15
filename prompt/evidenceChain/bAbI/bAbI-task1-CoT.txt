@@ -1,0 +1,37 @@
+Example-0: Answer the question based on the following evidence chain:
+chain-0: Daniel passed through the kitchen(t=0),garden(t=2),office(t=4),hallway(t=8) in sequence with apple.
+chain-1: Sandra passed through the office(t=1),bedroom(t=7) in sequence with milk.
+chain-2: Mary passed through the garden(t=3),hallway(t=5) in sequence with football.
+Question:Where is Mary?
+Answer: The chain containing mary in chain is chain-2, so we choose chain-2.According to chain-2: Mary passed through the garden(t=3),hallway(t=5) in sequence with football.Mary finally stopped at the hallway(t=5).Therefore,Mary was in hallway(t=5).&
+
+Example-1: Answer the question based on the following evidence chain:
+chain-0: Daniel passed through the bathroom(t=1) with apple.
+chain-1: Sandra passed through the bathroom(t=2),bedroom(t=3),office(t=9),bedroom(t=10) in sequence.
+chain-2: Mary passed through the bedroom(t=4).
+chain-3: John passed through the office(t=6),bedroom(t=8),hallway(t=11),garden(t=13),kitchen(t=14) in sequence with football.
+Question:Where is Sandra?
+Answer: The chain containing Sandra in chain is chain-1, so we choose chain-1.According to chain-1: Sandra passed through the bathroom(t=2),bedroom(t=3),office(t=9),bedroom(t=10) in sequence.Sandra finally stopped at the bedroom(t=10).Therefore,Sandra was in bedroom(t=10).&
+
+Example-2: Answer the question based on the following evidence chain:
+chain-0: Mary passed through the hallway(t=0),garden(t=2),kitchen(t=9),hallway(t=11),bathroom(t=13) in sequence.
+chain-1: Sandra passed through the bedroom(t=1),hallway(t=3),bedroom(t=4),bathroom(t=7),office(t=10) in sequence.
+chain-2: John picked up and put down the football.
+chain-3: Daniel passed through the hallway(t=6),kitchen(t=8) in sequence with football.
+Question:Where is Daniel?
+Answer: The chain containing Daniel in chain is chain-3, so we choose chain-3.According to chain-3: Daniel passed through the hallway(t=6),kitchen(t=8) in sequence with football. Daniel finally stopped at the kitchen(t=8).Therefore,Daniel was in kitchen(t=8).&
+
+Example-3: Answer the question based on the following evidence chain:
+chain-0: Daniel passed through the kitchen(t=1),hallway(t=4) in sequence with apple.
+chain-1: Mary passed through the garden(t=2) in sequence with football.
+chain-2: Sandra passed through the office(t=6),bedroom(t=8) in sequence with milk.
+Question:Where is Daniel?
+Answer: The chain containing Daniel in chain is chain-0, so we choose chain-0.According to chain-0: Daniel passed through the kitchen(t=1),hallway(t=4) in sequence with apple. Daniel finally stopped at the hallway(t=4).Therefore,Daniel was in hallway(t=4).&
+
+Example-4: Answer the question based on the following evidence chain:
+chain-0: Sandra passed through the bedroom(t=0),garden(t=3) in sequence.
+chain-1: Mary passed through the bathroom(t=1),kitchen(t=6) in sequence with football.
+chain-2: John passed through the hallway(t=4),office(t=7),garden(t=8) in sequence with apple.
+Question:Where is John?
+Answer: The chain containing John in chain is chain-2, so we choose chain-2.According to chain-2: John passed through the hallway(t=4),office(t=7),garden(t=8) in sequence with apple.John finally stopped at the garden(t=8).Therefore,John was in garden(t=8).&
+

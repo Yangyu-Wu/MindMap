@@ -1,0 +1,11 @@
+Below are some stories about people moving objects between rooms. After each story you have to answer a question about where a particular object is.
+ john went to the garden.Therefore,john is in garden.&
+
+Sandra travelled to the garden.We know that Sandra journeyed to the bathroom.Therefore,Sandra is in bathroom now.&
+
+John went back to the bathroom. We know that John journeyed to the office.Therefore,John is in bathroom now.&
+
+Sandra went back to the bathroom.We know that Sandra went back to the office.Therefore,Sandra is in office now.&
+
+Mary travelled to the hallway.Therefore,Mary is in hallway.&
+

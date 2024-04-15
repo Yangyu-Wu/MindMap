@@ -1,0 +1,10 @@
+The chain containing Mary in chain is chain-2, so we choose chain-2.According to chain-2: Mary passed through the garden(t=3),hallway(t=5) in sequence with football.Therefore,Mary was in hallway(t=5).&
+
+The chain containing Sandra in chain is chain-1, so we choose chain-1.According to chain-1: Sandra passed through the bathroom(t=2),bedroom(t=3),office(t=9),bedroom(t=10) in sequence.Therefore,Sandra was in bedroom(t=10).&
+
+The chain containing Daniel in chain is chain-3, so we choose chain-3.According to chain-3: Daniel passed through the hallway(t=6),kitchen(t=8) in sequence with football.Therefore,Daniel was in kitchen(t=8).&
+
+The chain containing Daniel in chain is chain-0, so we choose chain-0.According to chain-0: Daniel passed through the kitchen(t=1),hallway(t=4) in sequence with apple. Therefore,Daniel was in hallway(t=4).&
+
+The chain containing John in chain is chain-2, so we choose chain-2.According to chain-2: John passed through the hallway(t=4),office(t=7),garden(t=8) in sequence with apple.Therefore,John was in garden(t=8).&
+

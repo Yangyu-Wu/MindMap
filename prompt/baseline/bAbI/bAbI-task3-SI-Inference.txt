@@ -1,0 +1,11 @@
+Below are some stories about people moving objects between rooms. After each story you have to answer a question about where a particular object is.
+ at t=13 Mary discarded the football. We know that at t=10 Mary went back to the kitchen.Therefore,football was in kitchen with Mary.&
+
+at t=5 John journeyed to the office. We know that at t=1 John went back to the garden.Therefore,John was in the garden before the office.&
+
+at t=3 Mary moved to the bedroom. We know that at t=2 Mary journeyed to the office.Therefore,Mary was in the office before the bedroom.&
+
+at t=5 Daniel went back to the bathroom. We know that at t=1 Daniel went back to the hallway.Therefore,Daniel was in the hallway before the bathroom.&
+
+at t=1 Sandra grabbed the milk there. We know that at t=10 Sandra went to the kitchen.Therefore,milk was in the kitchen with Sandra.&
+

@@ -1,0 +1,11 @@
+Below are some stories about people moving objects between rooms. After each story you have to answer a question about where a particular object is.
+ at t=5 Mary went back to the garden.We know that at t=10 Mary dropped the football.Therefore,football is in garden.&
+
+at t=2 Daniel journeyed to the bedroom.We know that at t=3 Daniel discarded the football.Therefore,football is in bedroom.&
+
+at t=11 Sandra grabbed the milk there.We know that at t=15 Sandra journeyed to the bathroom.Therefore,milk is in bathroom.&
+
+at t=1 Daniel went to the bedroom.We know that at t=4 Daniel put down the apple.Therefore,apple is in bedroom.&
+
+at t=0 John went to the kitchen.We know that at t=3 John left the milk.Therefore,milk is in kitchen.&
+

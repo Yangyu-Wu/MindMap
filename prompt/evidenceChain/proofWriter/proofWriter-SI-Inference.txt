@@ -1,0 +1,10 @@
+The question is "The cow does not visit the cow.". The chain containing cow in chain is chain-1, so we choose chain-1.According to chain-1:The cow is big,cold,green,red,rough,chases the cat,needs the cat,visits the cat.And according the rules:If someone is cold then they visit the cow. We know that the cow is cold. Therefore, the cow does visit the cow.&
+
+The question is "The squirrel chases the mouse.".The chain containing squirrel in chain is chain-2, so we choose chain-2.According to chain-2: The squirrel sees the tiger.And according the rules:If someone sees the tiger then they are blue. Therefore, The squirrel are blue.&
+
+The question is "Erin is not kind.".The chain containing Erin in chain is chain-2, so we choose chain-2.According to chain-2: Erin is furry,nice.And according the rules:If someone is furry then they are young. We know that Erin is furry. Therefore Erin is young.&
+
+The question is "The rabbit does not like the mouse.".The chain containing rabbit in chain is chain-3, so we choose chain-3.According to chain-3: The rabbit eats the mouse.And according the rules:If something eats the rabbit then the rabbit does not like the mouse.according to chain-1: The dog eats the rabbit. Therefore, the rabbit does not like the mouse.&
+
+The question is "Harry is red.".The chain containing Harry in chain is chain-4, so we choose chain-4.According tochain-4:The nice one is Harry.And according the rules:Nice, furry people are green. We know that Harry is nice.Therefore, Harry is green.&
+

@@ -1,0 +1,12 @@
+Given a set of rules and facts, you have to reason whether a statement is true or false. Here are a few examples for reference. Please refer to the answer template of the examples to answer the questions:
+
+ If someone is rough then they need the cow. We know that the cat is rough. Therefore,Cat need the cow.&
+
+If someone sees the tiger then they are blue. We know that the squirrel sees the tiger. Therefore,the squirrel are blue.&
+
+If someone is furry then they are young. We know that Erin is furry. Therefore,Erin is young.&
+
+If something eats the rabbit then the rabbit does not like the mouse. We know that the dog eats the rabbit. Therefore,the rabbit does not like the mouse.&
+
+Nice, furry people are green. We know that Harry is nice. Therefore,Harry is green.&
+

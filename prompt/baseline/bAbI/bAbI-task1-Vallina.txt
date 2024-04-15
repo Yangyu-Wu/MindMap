@@ -1,0 +1,85 @@
+Context: daniel went to the bedroom.
+daniel journeyed to the office.
+daniel travelled to the bathroom.
+mary went to the office.
+john journeyed to the bedroom.
+daniel went back to the kitchen.
+john went to the garden.
+daniel travelled to the office.
+Question: where is john?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: garden&
+
+Context: Mary went to the garden.
+Sandra journeyed to the bedroom.
+Mary journeyed to the bathroom.
+Sandra travelled to the garden.
+Daniel travelled to the kitchen.
+John travelled to the bathroom.
+John moved to the garden.
+Sandra went back to the hallway.
+Sandra travelled to the garden.
+Sandra journeyed to the bathroom.
+Question: Where is Sandra?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: bathroom&
+
+Context: Daniel went back to the hallway.
+Daniel went back to the garden.
+Sandra went to the garden.
+John went back to the bathroom.
+Sandra travelled to the hallway.
+Mary moved to the garden.
+John journeyed to the office.
+Mary went to the office.
+Question: where is John?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: office&
+
+Context: Daniel went back to the hallway.
+Daniel moved to the garden.
+Mary moved to the hallway.
+Mary went back to the office.
+Sandra went to the garden.
+Sandra went back to the bathroom.
+Daniel travelled to the kitchen.
+Sandra went back to the office.
+Question: where is Sandra?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: office&
+
+Context: John moved to the bathroom.
+Daniel went to the kitchen.
+Sandra travelled to the kitchen.
+Mary travelled to the hallway.
+Sandra went back to the bathroom.
+John went back to the kitchen.
+Question: where is Mary?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: hallway&
+

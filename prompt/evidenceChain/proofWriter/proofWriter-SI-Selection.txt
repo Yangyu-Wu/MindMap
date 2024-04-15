@@ -1,0 +1,43 @@
+Example-0: Answer the question based on the following evidence chain:
+chain-0: The cat is cold,green,red,rough,needs the cow,visits the cow.
+chain-1: The cow is big,cold,green,red,rough,chases the cat,needs the cat,visits the cat.
+Rules: If someone chases the cow and the cow visits the cat then they chase the cat. If someone is rough then they need the cow. If someone visits the cat and the cat chases the cow then the cow needs the cat. If someone is big and they chase the cat then they visit the cat. If the cow is rough and the cow chases the cat then the cat is green. If someone visits the cat and they are cold then they are green. If someone is cold then they visit the cow. If someone visits the cat then they need the cat.
+Does it imply that the statement "The cow does not visit the cow." is True or False or Unknow?
+Reason: The question is "The cow does not visit the cow.". The chain containing cow in chain is chain-1, so we choose chain-1.According to chain-1:The cow is big,cold,green,red,rough,chases the cat,needs the cat,visits the cat.And according the rules:If someone is cold then they visit the cow. We know that the cow is cold. Therefore, &
+
+Example-1: Answer the question based on the following evidence chain:
+chain-0: The dog is kind.
+chain-1: The mouse sees the tiger.
+chain-2: The squirrel sees the tiger.
+chain-3: The tiger is round.
+Rules: If someone chases the mouse and they eat the squirrel then the mouse sees the dog. If someone is blue and they see the tiger then the tiger sees the squirrel. If someone sees the tiger then they are blue. If someone sees the mouse then the mouse chases the tiger. If someone is kind and they eat the dog then they eat the mouse. If someone sees the squirrel then the squirrel chases the dog. If someone sees the squirrel and they eat the squirrel then the squirrel sees the tiger. If the squirrel eats the tiger then the squirrel chases the dog.
+Does it imply that the statement "The squirrel chases the mouse." is True or False or Unknow?
+Reason: The question is "The squirrel chases the mouse.".The chain containing squirrel in chain is chain-2, so we choose chain-2.According to chain-2: The squirrel sees the tiger.And according the rules:If someone sees the tiger then they are blue. Therefore,&
+
+Example-2: Answer the question based on the following evidence chain:
+chain-0: Anne is green,round.
+chain-1: Dave is nice,quiet.
+chain-2: Erin is furry,nice.
+chain-3: Fiona is quiet.
+Rules: Nice, young people are kind. If someone is furry then they are young. Kind, young people are quiet.
+Does it imply that the statement "Erin is not kind." is True or False or Unknow?
+Reason: The question is "Erin is not kind.".The chain containing Erin in chain is chain-2, so we choose chain-2.According to chain-2: Erin is furry,nice.And according the rules:If someone is furry then they are young. We know that Erin is furry. Therefore,&
+
+Example-3: Answer the question based on the following evidence chain:
+chain-0: The cow visits the dog.
+chain-1: The dog eats the rabbit.
+chain-2: The mouse likes the cow.
+chain-3: The rabbit eats the mouse.
+Rules: If something is rough and it visits the dog then it likes the dog. If something eats the rabbit then the rabbit does not like the mouse.
+Does it imply that the statement "The rabbit does not like the mouse." is True or False or Unknow?
+Reason: The question is "The rabbit does not like the mouse.".The chain containing rabbit in chain is chain-3, so we choose chain-3.According to chain-3: The rabbit eats the mouse.And according the rules:If something eats the rabbit then the rabbit does not like the mouse.according to chain-1: The dog eats the rabbit. Therefore,&
+
+Example-4: Answer the question based on the following evidence chain:
+chain-0: The white one is Charlie, Fiona.
+chain-1: The furry one is Dave, Fiona.
+chain-2:The quiet one is Fionachain-3:The round one is Fiona.
+chain-4:The nice one is Harry.
+Rules: If someone is nice then they are round. All red people are white. Round, green people are red. Nice, furry people are green. Nice, round people are furry. If Charlie is round and Charlie is nice then Charlie is white.
+Does it imply that the statement "Harry is red." is True or False or Unknow?
+ Reason: The question is "Harry is red.".The chain containing Harry in chain is chain-4, so we choose chain-4.According tochain-4:The nice one is Harry.And according the rules:Nice, furry people are green. We know that Harry is nice.Therefore,&
+

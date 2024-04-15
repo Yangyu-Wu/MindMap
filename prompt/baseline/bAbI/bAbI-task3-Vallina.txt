@@ -1,0 +1,107 @@
+Context: Context:at t=0 Mary took the football there.
+at t=1 John travelled to the office.
+at t=2 Mary went to the hallway.
+at t=3 Daniel went to the office.
+at t=4 Mary travelled to the bathroom.
+at t=5 Mary went back to the garden.
+at t=6 Sandra travelled to the bedroom.
+at t=7 Mary travelled to the hallway.
+at t=8 John travelled to the hallway.
+at t=9 Daniel moved to the office.
+at t=10 Mary went back to the kitchen.
+at t=11 Daniel went back to the garden.
+at t=12 Daniel went back to the bedroom.
+at t=13 Mary discarded the football.
+Question: Where was the football before the kitchen?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: hallway&
+
+Context: Context:at t=0 Mary journeyed to the kitchen.
+at t=1 John went back to the garden.
+at t=2 Sandra went back to the bedroom.
+at t=3 John got the apple there.
+at t=4 Sandra went to the office.
+at t=5 John journeyed to the office.
+at t=6 Daniel went back to the kitchen.
+at t=7 Daniel went back to the office.
+at t=8 John discarded the apple.
+at t=9 John moved to the bedroom.
+at t=10 Sandra got the apple there.
+at t=11 Sandra discarded the apple.
+at t=12 Daniel went to the bathroom.
+at t=13 Sandra took the milk there.
+Question: Where was the apple before the office?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: garden&
+
+Context: Context:at t=0 Daniel went back to the bedroom.
+at t=1 Mary grabbed the milk there.
+at t=2 Mary journeyed to the office.
+at t=3 Mary moved to the bedroom.
+Question: Where was the milk before the bedroom?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: office&
+
+Context: Context:at t=0 Sandra went to the garden.
+at t=1 Daniel went back to the hallway.
+at t=2 Bill picked up the football there.
+at t=3 Bill travelled to the kitchen.
+at t=4 Bill left the football.
+at t=5 Daniel went back to the bathroom.
+at t=6 Daniel went to the bedroom.
+at t=7 Sandra journeyed to the office.
+at t=8 Daniel picked up the apple there.
+at t=9 John went to the garden.
+at t=10 John went to the bedroom.
+at t=11 Daniel left the apple.
+Question: Where was the apple before the bathroom?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: hallway&
+
+Context: Context:at t=0 John moved to the office.
+at t=1 Daniel journeyed to the office.
+at t=2 Sandra moved to the garden.
+at t=3 Bill picked up the apple there.
+at t=4 John travelled to the garden.
+at t=5 Sandra went to the hallway.
+at t=6 Bill left the apple.
+at t=7 John journeyed to the kitchen.
+at t=8 Sandra journeyed to the bathroom.
+at t=9 Bill took the milk there.
+at t=10 Sandra went to the kitchen.
+at t=11 Bill grabbed the apple there.
+at t=12 John went to the bathroom.
+at t=13 Bill moved to the kitchen.
+at t=14 Bill put down the milk.
+at t=15 John grabbed the football there.
+at t=16 Sandra grabbed the milk there.
+at t=17 Sandra dropped the milk.
+Question: Where was the milk before the kitchen?
+Choice: garden
+Choice: bathroom
+Choice: office
+Choice: kitchen
+Choice: bedroom
+Choice: hallway
+Answer: bathroom&
+

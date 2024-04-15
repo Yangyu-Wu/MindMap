@@ -1,0 +1,60 @@
+Below are some stories about people moving objects between rooms. After each story you have to answer a question about where a particular object is.
+at t=0 Mary moved to the bathroom.
+at t=1 Sandra journeyed to the bedroom.
+at t=2 Mary got the football there.
+at t=3 John went to the kitchen.
+at t=4 Mary went back to the kitchen.
+at t=5 Mary went back to the garden.
+at t=6 Sandra went back to the office.
+at t=7 John moved to the office.
+at t=8 Sandra journeyed to the hallway.
+at t=9 Daniel went back to the kitchen.
+at t=10 Mary dropped the football.
+at t=11 John got the milk there.
+Question: Where is the football?
+Reason: at t=5 Mary went back to the garden.We know that at t=10 Mary dropped the football.Therefore, football is in the garden.&
+
+Context:at t=0 Daniel got the milk there.
+at t=1 Daniel picked up the football there.
+at t=2 Daniel journeyed to the bedroom.
+at t=3 Daniel discarded the football.
+Question: Where is the football?
+Reason: at t=2 Daniel journeyed to the bedroom.We know that at t=3 Daniel discarded the football.Therefore, football is in the bedroom.&
+
+Context:at t=0 Daniel went back to the bathroom.
+at t=1 Sandra took the milk there.
+at t=2 John journeyed to the kitchen.
+at t=3 Daniel journeyed to the kitchen.
+at t=4 Daniel moved to the office.
+at t=5 John moved to the bathroom.
+at t=6 Sandra discarded the milk.
+at t=7 Mary went to the hallway.
+at t=8 Daniel journeyed to the kitchen.
+at t=9 John travelled to the hallway.
+at t=10 John moved to the office.
+at t=11 Sandra grabbed the milk there.
+at t=12 John went to the hallway.
+at t=13 Daniel went to the hallway.
+at t=14 Mary journeyed to the bathroom.
+at t=15 Sandra journeyed to the bathroom.
+Question: Where is the milk?
+Reason: at t=11 Sandra grabbed the milk there.We know that at t=15 Sandra journeyed to the bathroom.Therefore, milk is in the bathroom.&
+
+Context:at t=0 John moved to the kitchen.
+at t=1 Daniel went to the bedroom.
+at t=2 Mary picked up the football there.
+at t=3 Daniel grabbed the apple there.
+at t=4 Daniel put down the apple.
+at t=5 Sandra journeyed to the office.
+at t=6 Mary journeyed to the office.
+at t=7 Mary moved to the garden.
+Question: Where is the apple?
+Reason: at t=1 Daniel went to the bedroom.We know that at t=4 Daniel put down the apple.Therefore, apple is in the bedroom.&
+
+Context:at t=0 John went to the kitchen.
+at t=1 Mary journeyed to the garden.
+at t=2 John got the milk there.
+at t=3 John left the milk.
+Question: Where is the milk?
+Reason: at t=0 John went to the kitchen.We know that at t=3 John left the milk.Therefore, milk is in the kitchen.&
+
