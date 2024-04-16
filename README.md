@@ -37,7 +37,7 @@ cd MindMap
 pip install -r requirements.txt
 ```
 ### Evidence Chain Construction
-we use the entity extraction and dependency parsing modules in the Stanford CoreNLP toolkit [stanza](https://github.com/stanfordnlp/stanza) to extract the entities which are subjects in the facts.
+We use the entity extraction and dependency parsing modules in the Stanford CoreNLP toolkit [stanza](https://github.com/stanfordnlp/stanza) to extract the entities which are subjects in the facts.
 ```
 python consturct_EC.py
 ```
