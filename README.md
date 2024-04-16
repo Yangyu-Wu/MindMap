@@ -36,6 +36,16 @@ git clone https://github.com/Yangyu-Wu/MindMap
 cd MindMap
 pip install -r requirements.txt
 ```
+### Evidence Chain Construction
+we use the entity extraction and dependency parsing modules in the Stanford CoreNLP toolkit [stanza](https://github.com/stanfordnlp/stanza) to extract the entities which are subjects in the facts.
+```
+python consturct_EC.py
+```
+### Evidence Chain Summarization
+We use instructions to guide a LLM to generate a summary covering main entities in each evidence chain. The relevant prompt is in `/prompt/consturction`
+```
+python summarize_EC.py
+```
 ### Inference
 Please set the model storage location and related parameters in `main.py`
 ```
