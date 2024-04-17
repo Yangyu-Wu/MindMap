@@ -5,8 +5,6 @@ logging.basicConfig(filename='modelrun.log', level=logging.DEBUG)
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, LlamaForCausalLM
 import torch
-from tqdm import tqdm
-import ray
 from model_inference import *
 from prompt_util import time_change
 
@@ -16,7 +14,7 @@ import time
 class Vicuna():
     @torch.inference_mode()
     def __init__(self):
-        model_path = 'vicuna-7b'
+        model_path = '../wyy/vicuna-7b'
         tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
         model = AutoModelForCausalLM.from_pretrained(
             model_path, low_cpu_mem_usage=False, torch_dtype=torch.float16
@@ -117,7 +115,7 @@ if __name__ == '__main__':
                 operate_Predict(model, 'Vallina', datatype, dataindex, mind_map, unknow_data)
             operate_Predict(model, 'CoT', datatype, dataindex, mind_map, unknow_data)
             operate_Predict(model, 'SI', datatype, dataindex, mind_map, unknow_data)
-    elif datatype == 'pW':
+    elif datatype == 'proofWriter':
         for num in pw_num:
             if not mind_map:
                 operate_Predict(model, 'Vallina', datatype, dataindex, mind_map, unknow_data)

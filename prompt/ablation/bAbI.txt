@@ -1,0 +1,92 @@
+Example-1:Below are some stories about people moving objects between rooms. After each story you have to answer questions about where a particular object is.
+ Story:at t=0 Daniel went to the kitchen.
+at t=1 Daniel picked up the apple there.
+at t=2 Mary got the football there.
+at t=3 Daniel journeyed to the garden.
+at t=4 Sandra went to the office.
+at t=5 Sandra travelled to the bedroom.
+at t=6 Mary went back to the garden.
+at t=7 Sandra grabbed the milk there.
+at t=8 Mary journeyed to the hallway.
+at t=9 Daniel travelled to the office.
+at t=10 Mary left the football.
+at t=11 Daniel went to the hallway.
+at t=12 Daniel left the apple.
+at t=13 Daniel went back to the bedroom.
+Request: Write a summary of each chain!
+chain-0:Daniel passed through the kitchen(t=0),garden(t=3),office(t=9),hallway(t=11) in sequence with apple.Then,he went to bedroom(t=13).
+chain-1:Sandra passed through the office(t=4),bedroom(t=5) in sequence with milk.
+chain-2:Mary passed through the garden(t=6),hallway(t=8) in sequence with football.&
+
+Example-2:Below are some stories about people moving objects between rooms. After each story you have to answer questions about where a particular object is.
+ Story:at t=0 John travelled to the office.
+at t=1 John went to the bedroom.
+at t=2 Sandra travelled to the bathroom.
+at t=3 Sandra went to the bedroom.
+at t=4 Mary went to the bedroom.
+at t=5 Daniel picked up the apple there.
+at t=6 John journeyed to the hallway.
+at t=7 Daniel travelled to the bathroom.
+at t=8 Sandra journeyed to the office.
+at t=9 Sandra went back the bedroom.
+at t=10 John went back to the garden.
+at t=11 John went back to the kitchen.
+at t=12 John left the football.
+Request: Write a summary of each chain!
+chain-0:Daniel passed through the bathroom(t=7) with apple.
+chain-1:Sandra passed through the bathroom(t=2),bedroom(t=3),office(t=8),bedroom(t=9) in sequence.
+chain-2:Mary passed through the bedroom(t=4).
+chain-3:John passed through the office(t=0),bedroom(t=1),hallway(t=6),garden(t=10),kitchen(t=11) in sequence with football.&
+
+Example-3:Below are some stories about people moving objects between rooms. After each story you have to answer questions about where a particular object is.
+ Story:at t=0 Mary journeyed to the hallway.
+at t=1 Mary went back to the garden.
+at t=2 Sandra went to the bedroom.
+at t=3 John picked up the football there.
+at t=4 John put down the football.
+at t=5 Sandra moved to the hallway.
+at t=6 Mary travelled to the kitchen.
+at t=7 Daniel got the football there.
+at t=8 Daniel journeyed to the hallway.
+at t=9 Sandra went back to the bedroom.
+at t=10 John journeyed to the bedroom.
+at t=11 Sandra moved to the bathroom.
+at t=12 Sandra journeyed to the office.
+at t=13 Mary travelled to the hallway.
+at t=14 Daniel went to the kitchen.
+at t=15 Mary moved to the bathroom.
+at t=16 Daniel dropped the football.
+at t=17 Daniel travelled to the hallway.
+Request: Write a summary of each chain!
+chain-0:Mary passed through the hallway(t=0),garden(t=1),kitchen(t=6),hallway(t=13),bathroom(t=15) in sequence.
+chain-1:Sandra passed through the bedroom(t=2),hallway(t=5),bedroom(t=9),bathroom(t=11),office(t=12) in sequence.
+chain-2:John picked up and put down the football. Then,he went to bedroom(t=10).
+chain-3:Daniel passed through the hallway(t=8),kitchen(t=14) in sequence with football. Then,he went to hallway(t=17).&
+
+Example-4:Below are some stories about people moving objects between rooms. After each story you have to answer questions about where a particular object is.
+ Story:at t=0 Daniel went to the kitchen.
+at t=1 Daniel journeyed to the hallway.
+at t=2 Mary went back to the garden.
+at t=3 Daniel picked up the apple there.
+at t=4 Sandra went to the office.
+at t=5 Sandra travelled to the bedroom.
+at t=6 Mary got the football there.
+at t=7 Sandra grabbed the milk there.
+at t=8 Mary left the football.
+at t=9 Daniel left the apple.
+Request: Write a summary of each chain!
+chain-0:Daniel passed through the kitchen(t=0),hallway(t=1) with apple in sequence.
+chain-1:Mary passed through the garden(t=2) with football in sequence.
+chain-2:Sandra passed through the office(t=4),bedroom(t=5) with milk in sequence.&
+
+Example-5:Below are some stories about people moving objects between rooms. After each story you have to answer questions about where a particular object is.
+ Story:at t=0 Sandra went to the bedroom.
+at t=1 Mary travelled to the bathroom.
+at t=2 Sandra moved to the garden.
+at t=3 Mary grabbed the football there.
+at t=4 Mary moved to the kitchen.
+at t=5 Mary discarded the football.
+Request: Write a summary of each chain!
+chain-0:Sandra passed through the bedroom(t=0),garden(t=2) in sequence.
+chain-1:Mary passed through the bathroom(t=1),kitchen(t=4) with football in sequence.&
+

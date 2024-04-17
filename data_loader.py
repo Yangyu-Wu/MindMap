@@ -1,20 +1,29 @@
 import json
-def load_prompt(strategies,datatype,dataindex,mindmap):
-    if mindmap:
+def load_prompt(strategies,datatype,dataindex,dataStruct):
+    file_path = "prompt/"+dataStruct+"/" + datatype
+    if dataStruct == 'evidenceChain':
         file_path = "prompt/evidenceChain/" + datatype
-    else:
+    elif dataStruct == 'baseline':
         file_path = "prompt/baseline/" + datatype
-    if datatype == 'bAbI':
-        file_path += "/bAbI-task"+str(dataindex)+"-"+strategies+".txt"
+    if dataStruct == 'evidenceChain' or dataStruct == 'baseline':
+        if datatype == 'bAbI':
+            file_path += "/bAbI-task"+str(dataindex)+"-"+strategies+".txt"
+        else:
+            file_path += "/proofWriter" + "-" + strategies + ".txt"
+    elif dataStruct == 'ablation':
+        file_path += ".txt"
     else:
-        file_path += "/proofWriter" + "-" + strategies + ".txt"
+        if datatype == 'bAbI':
+            file_path += "/bAbI-task"+str(dataindex)+".txt"
+        else:
+            file_path += "/proofWriter" + ".txt"
     with open(file_path, "r") as file:
         file_content = file.read()
     return file_content
 
 
-def load_data(datatype,dataindex):
-    file_path = "data/processed_data/" + datatype
+def load_data(datatype,dataindex,dataStruct):
+    file_path = "data/"+dataStruct+"/" + datatype
     if datatype == 'bAbI':
         file_path += "/bAbI-task" + str(dataindex) + ".json"
     else:

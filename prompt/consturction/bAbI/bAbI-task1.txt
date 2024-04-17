@@ -1,0 +1,19 @@
+Below are some places where people moved or items they carried. Please summarize based on the examples!
+chain-0: at t=2 John travelled to the hallway.
+at t=5 John went to the bedroom.
+Entity about John: hallway,bedroom
+Summary:chain-0: John passed through the hallway(t=2),bedroom(t=5) in sequence.&
+
+Below are some places where people moved or items they carried. Please summarize based on the examples!
+chain-1: at t=0 Mary travelled to the bathroom.
+at t=6 John went to the kitchen.
+Entity about Mary: bathroom,kitchen
+Summary:chain-1: Mary passed through the bathroom(t=0),kitchen(t=6) in sequence.&
+
+Below are some places where people moved or items they carried. Please summarize based on the examples!
+chain-2: at t=3 John picked up the football there.
+at t=4 John put down the football.
+at t=10 John journeyed to the bedroom.
+Entity about John: football,football,bedroom
+Summary:chain-2: John passed through the bedroom(t=10) in sequence with football.&
+

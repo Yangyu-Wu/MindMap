@@ -1,0 +1,25 @@
+Here are some statements that describe a situation. Please summarize based on the examples!
+chain-0: The cat is cold. The cat is green. The cat is red. The cat is rough. The cat needs the cow.The cat visits the cow. The cow chases the cat.The cow needs the cat. The cow visits the cat.
+Entity about cat: cold,green,red,rough,cow,cow
+Summary:chain-0: The cat is cold,green,red,rough,needs the cow,visits the cow.&
+
+Here are some statements that describe a situation. Please summarize based on the examples!
+chain-2: Bob is red. Dave is red. Fiona is red. Gary is red.
+Entity about Bob: red
+Summary:chain-2: Bob is red&
+
+Here are some statements that describe a situation. Please summarize based on the examples!
+chain-1: Dave is nice. Dave is quiet.
+Entity about Dave: nice,quiet
+Summary:chain-1: Dave is nice,quiet&
+
+Here are some statements that describe a situation. Please summarize based on the examples!
+chain-3: The dog eats the rabbit.The dog eats the mouse.The dog likes the cow.The dog visits the cow.The rabbit eats the dog.
+Entity about dog: rabbit,mouse,cow,cow
+Summary:chain-3: The dog eats the rabbit,eats the mouse,likes the cow,visits the cow.&
+
+Here are some statements that describe a situation. Please summarize based on the examples!
+chain-2: The rabbit eats the cow.The cow eats the mouse.The dog likes the cow.The cow visits the rabbit.
+Entity about cow: mouse,rabbit
+Summary:chain-2: The cow eats the mouse,visits the rabbit.&
+

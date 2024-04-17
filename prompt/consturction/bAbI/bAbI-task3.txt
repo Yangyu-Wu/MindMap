@@ -1,0 +1,30 @@
+Below are some places where people moved or items they carried. Please summarize based on the examples!
+chain-3:at t=0 John travelled to the office.
+at t=1 John went to the bedroom.
+at t=6 John journeyed to the hallway.
+at t=10 John went back to the garden.
+at t=11 John went back to the kitchen.
+at t=12 John left the football.
+Entity about John: office,bedroom,hallway,garden,kitchen,football
+Summary:chain-3: John passed through the office(t=0),bedroom(t=1),hallway(t=6),garden(t=10),kitchen(t=11) in sequence with football.&
+
+Below are some places where people moved or items they carried. Please summarize based on the examples!
+chain-0:at t=0 Daniel went to the kitchen.
+at t=1 Daniel picked up the apple there.
+at t=3 Daniel journeyed to the garden.
+at t=9 Daniel travelled to the office.
+at t=11 Daniel went to the hallway.
+at t=12 Daniel left the apple.
+at t=13 Daniel went back to the bedroom.
+Entity about Daniel: kitchen,apple,garden,office,hallway,apple,bedroom
+Summary:chain-0: Daniel passed through the kitchen(t=0),garden(t=3),office(t=9),hallway(t=11),bedroom(t=13) in sequence with apple.&
+
+Below are some places where people moved or items they carried. Please summarize based on the examples!
+chain-3:at t=7 Daniel got the football there.
+at t=8 Daniel journeyed to the hallway.
+at t=14 Daniel went to the kitchen.
+at t=16 Daniel dropped the football.
+at t=17 Daniel travelled to the hallway.
+Entity about Daniel: football,hallway,kitchen
+Summary:chain-3: Daniel passed through the hallway(t=8),kitchen(t=14) in sequence with football.&
+
