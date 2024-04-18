@@ -47,8 +47,10 @@ def summerize_chain(model,datatype,dataindex):
     jsondoc = load_data(datatype,dataindex,'consturct_data')
     for i in range(len(jsondoc)):
         docitem = jsondoc[i]
-        line_list = docitem['linelist']
-        question = docitem['question']
+        if datatype == 'bAbI':
+            line_list = docitem['linelist']
+        else:
+            line_list = docitem['fact_list']
         group = docitem['main_chain']
         objectchain = docitem['object_chain']
         cindex = 0
